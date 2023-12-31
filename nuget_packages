@@ -11,3 +11,12 @@ Add-Migration InitialCreats
 
 
 update-database
+
+
+
+--------Make Model Class Using Database
+
+Install-Package Microsoft.EntityFrameworkCore.Tools
+
+
+Scaffold-DbContext "Server=localhost;Database=attendancemodule;Uid=root;Pwd=root;" MySql.EntityFrameworkCore -OutputDir Models/DbModel  -f
