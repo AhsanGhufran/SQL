@@ -1,6 +1,10 @@
-Microsoft.EntityFrameworkCore.Sql
+Microsoft.EntityFrameworkCore.SqlServer
 
 
 
 --install from nuget package manager console
 install-package Microsoft.EntityFrameworkCore.Tools
+
+
+
+Add-Migration InitialCreats
