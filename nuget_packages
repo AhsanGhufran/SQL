@@ -23,5 +23,7 @@ Scaffold-DbContext "Server=localhost;Database=attendancemodule;Uid=root;Pwd=root
 
 
 
+
 --For Sql
-Scaffold-DbContext "Server=.;Database=SFM;Uid=sa;Pwd=123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/DbModel  -f
+Scaffold-DbContext "Server=.;Database=SFM;Uid=sa;Pwd=123;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/DbModel  -f
+
