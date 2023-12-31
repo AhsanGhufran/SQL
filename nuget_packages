@@ -1,1 +1,6 @@
 Microsoft.EntityFrameworkCore.Sql
+
+
+
+--install from nuget package manager console
+install-package Microsoft.EntityFrameworkCore.Tools
