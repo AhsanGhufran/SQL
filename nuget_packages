@@ -18,5 +18,10 @@ update-database
 
 Install-Package Microsoft.EntityFrameworkCore.Tools
 
-
+--For Mysql
 Scaffold-DbContext "Server=localhost;Database=attendancemodule;Uid=root;Pwd=root;" MySql.EntityFrameworkCore -OutputDir Models/DbModel  -f
+
+
+
+--For Sql
+Scaffold-DbContext "Server=.;Database=SFM;Uid=sa;Pwd=123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/DbModel  -f
