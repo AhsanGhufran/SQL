@@ -8,3 +8,6 @@ install-package Microsoft.EntityFrameworkCore.Tools
 
 
 Add-Migration InitialCreats
+
+
+update-database
